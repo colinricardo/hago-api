@@ -1,0 +1,33 @@
+{
+  "name": "hago-api",
+  "version": "1.0.0",
+  "description": "API for the Hago project.",
+  "main": "server.js",
+  "repository": "https://github.com/colinricardo/hago-api",
+  "author": "Colin Ricardo <me@codecubed.io>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.4",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "expect": "^23.4.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
+  }
+}
